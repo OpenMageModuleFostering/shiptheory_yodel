@@ -1,0 +1,36 @@
+<div>
+	<img width="180" height="53" src="https://trello-attachments.s3.amazonaws.com/553fd41703690c3652c38f3f/180x53/ef9a829a6a65dbd662595c2bff168735/logo.png" />
+	<br /><br />
+	<?php if($this->isSetup()){ ?>
+    <h4>
+       You are all set!
+    </h4>
+	<p><br />
+		<ul>
+			<li>
+				1. New orders are automatically pulled into your Shiptheory.com account
+			</li>
+			<li>
+				2. Any tracking numbers are returned to Magento and the order is marked <b>Shipped</b> if not already Shipped
+			</li>
+			<li>
+				3. Your <b>Yodel labels</b> are ready and waiting for you to print via <a href="https://shiptheory.com">Shiptheory.com</a>
+			</li>				
+		</ul>
+	</p>
+	<?php }else{ ?>
+	<div id="messages">
+		<ul class="messages">
+			<li class="error-msg">
+				<ul>
+					<li><span><?php echo $this->__('You need to <b>enable</a> and configure from the Setup section');?></span></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<?php } ?>
+    <p>
+       <br />Need some help? Read our <a href="http://support.shiptheory.com/solution/articles/6000004521-getting-started-with-magento-and-your-carrier" target="_blank">getting started guide</a>
+    </p>
+    <br />
+</div>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Shiptheory_Yodel>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Shiptheory_Yodel>
+    </modules>
+</config>
