@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Shiptheory_Yodel",
+    "name": "OpenMageModuleFostering\/Shiptheory_Yodel",
     "type": "magento-module",
     "license": "Commercial",
     "homepage": "",
     "description": "Yodel Integration from Shiptheory",
     "authors": [
-    {
-        "name": "Shiptheory",
-        "email": "jm@shiptheory.com"
-    }
-],
+        {
+            "name": "Shiptheory",
+            "email": "jm@shiptheory.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
